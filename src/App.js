@@ -23,8 +23,6 @@ function App() {
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <p>semimi seyler yaratmaq lazimdi qaqas</p>
       <Expenses title={expense} />
     </div>
   );
