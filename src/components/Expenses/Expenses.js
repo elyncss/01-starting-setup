@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 import ExpensItem from "../ExpensItem/ExpensItem";
 import "./Expenses.css";
 
-export default function Expenses(props) {
+const Expenses = (props) => {
   return (
     <Card className="expenses">
       <ExpensItem
@@ -33,4 +33,6 @@ export default function Expenses(props) {
       />
     </Card>
   );
-}
+};
+
+export default Expenses;
